@@ -15,7 +15,7 @@ public class Main6 {
                     sorted = false;
                 }
             }
-            System.out.println(a[0], a[1], a[2], a[3], a[4],);
+            System.out.println(+a[0]+ a[1]+ a[2]+ a[3]+ a[4]+);
         }
     }
 }
