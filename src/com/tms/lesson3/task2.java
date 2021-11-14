@@ -10,13 +10,13 @@ public class task2 {
             if (array[a]>b){
                 b = array[a];
             }
-            if (array[a]<c){
+            if (array[a]<c) {
                 c = array[a];
             }
-            if (a == array.length - 1 ){
-                System.out.println(b + c);
+
             }
+        System.out.println(b + c);
         }
 
     }
-}
+
