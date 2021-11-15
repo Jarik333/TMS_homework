@@ -3,9 +3,9 @@ package com.tms.lesson4;
 
 import java.util.Arrays;
 
-public class task1 {
+public class Arrayss {
     static private int[] SortArrayss(int[] a){
-        Arrays.sort(a);
+        java.util.Arrays.sort(a);
         return a;
     }
     static private int Max(int[] a){
@@ -31,7 +31,7 @@ public class task1 {
     public static void main(String[] args) {
         int b[]= {2,6,8,1};
         SortArrayss(b);
-        System.out.println(Arrays.toString(b));
+        System.out.println(java.util.Arrays.toString(b));
         System.out.println(Max(b));
         System.out.println(Index(b,8));
     }
