@@ -1,6 +1,6 @@
 package com.tms.lesson5;
 
-public abstract class Employee {
+public abstract class Employee extends Person{
     int Exp;
 
     public enum Work {
@@ -14,10 +14,12 @@ public abstract class Employee {
 
     }
 
-    public Employee(Work Profession, int exp) {
+    public Employee(String name, String surname, Work Profession, int exp) {
         this.Exp = exp;
+        this.name = name;
+        this.surname = surname;
     }
-
+        public Employee(){}
     public double WorkerSalary() {
 
 

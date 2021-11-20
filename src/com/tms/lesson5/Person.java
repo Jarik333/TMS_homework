@@ -7,6 +7,9 @@ public class Person {
         this.name = name;
         this.surname = surname;
     }
+    public Person(){
+
+    };
     public void Info(){
         System.out.println(name + surname);
     }
