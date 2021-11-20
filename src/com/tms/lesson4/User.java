@@ -6,6 +6,9 @@ public class User {
     Person.JACK.UpAge();
     Person.JACK.GetInfo();
     }
+    public class Adress {
+
+    }
 
     public enum Person{
         TOM("Tom","Tommen",12,"male"),
