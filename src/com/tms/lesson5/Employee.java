@@ -6,7 +6,7 @@ public abstract class Employee extends Person{
     public enum Work {
         WORKER(1),
         DIRECTOR(2);
-        private double Koef;
+        public double Koef;
 
         Work(double koef) {
             this.Koef = koef;
