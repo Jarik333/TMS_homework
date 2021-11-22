@@ -19,18 +19,20 @@ public abstract class Employee extends Person{
         this.name = name;
         this.surname = surname;
     }
-        public Employee(){}
-    public double WorkerSalary() {
+        public Employee(){
+
+        }
+    public void  WorkerSalary() {
 
 
             double salary = Exp * Work.WORKER.Koef * 1000;
-            return salary;
+        System.out.println(salary);
         }
-    public double DirectorSalary() {
+    public void DirectorSalary() {
 
 
         double salary = Exp * Work.DIRECTOR.Koef * 1000;
-        return salary;
+        System.out.println(salary);
     }
     }
 
