@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Director extends Employee{
     int countWorker;
-   public ArrayList<String> workers = new ArrayList<String>();
+    public ArrayList<String> workers = new ArrayList<String>();
     public void addWorker(String name){
             countWorker++;
            workers.add(name);
