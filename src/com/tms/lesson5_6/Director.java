@@ -1,9 +1,13 @@
-package com.tms.lesson5;
+package com.tms.lesson5_6;
+
+import java.util.ArrayList;
 
 public class Director extends Employee{
     int countWorker;
-    public void addWorker(){
+   public ArrayList<String> workers = new ArrayList<String>();
+    public void addWorker(String name){
             countWorker++;
+           workers.add(name);
     }
     public void DirectorSalary(){
         System.out.println(Exp * Work.DIRECTOR.Koef * 1000 * countWorker);

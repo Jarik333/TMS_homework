@@ -1,4 +1,4 @@
-package com.tms.lesson5;
+package com.tms.lesson5_6;
 
 public abstract class Employee extends Person{
     int Exp;

@@ -1,4 +1,4 @@
-package com.tms.lesson5;
+package com.tms.lesson5_6;
 
 public class Person {
     public String name;
